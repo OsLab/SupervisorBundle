@@ -4,9 +4,9 @@ Supervisor Bundle
 [![Build Status](https://travis-ci.org/OsLab/SupervisorBundle.svg?branch=master)](https://travis-ci.org/OsLab/SupervisorBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsLab/SupervisorBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OsLab/SupervisorBundle/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/OsLab/SupervisorBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OsLab/SupervisorBundle/?branch=master)
-[![Total Downloads](https://poser.pugx.org/OsLab/SupervisorBundle/downloads)](https://packagist.org/packages/OsLab/SupervisorBundle)
-[![Latest Stable Version](https://poser.pugx.org/OsLab/SupervisorBundle/v/stable)](https://packagist.org/packages/OsLab/SupervisorBundle)
-[![License](https://poser.pugx.org/OsLab/SupervisorBundle/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![Total Downloads](https://poser.pugx.org/oslab/supervisor-bundle/downloads)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![Latest Stable Version](https://poser.pugx.org/oslab/supervisor-bundle/v/stable)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![License](https://poser.pugx.org/oslab/supervisor-bundle/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/3c29df13-4d04-4aab-bf37-e70dc278f1e5/mini.png)](https://insight.sensiolabs.com/projects/3c29df13-4d04-4aab-bf37-e70dc278f1e5)
 
 Documentation
