@@ -1,0 +1,12 @@
+{% extends "@OsLabSupervisor/layout.html.twig" %}
+
+{% block oslab_supervisor_content %}
+    <h1>{{ hostname }}</h1>
+
+    <div>
+        <h4>Supervisor</h4>
+        <code>
+            {{ supervisor|raw }}
+        </code>
+    </div>
+{% endblock %}
