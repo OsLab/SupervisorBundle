@@ -18,8 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9",
-    "predis/predis": "dev-master"
+    "php": ">=5.5.9"
   },
   "require-dev": {
     "phake/phake": "@stable",
