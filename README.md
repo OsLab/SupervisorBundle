@@ -9,7 +9,6 @@ Supervisor Bundle
 [![License](https://poser.pugx.org/OsLab/SupervisorBundle/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/3c29df13-4d04-4aab-bf37-e70dc278f1e5/mini.png)](https://insight.sensiolabs.com/projects/3c29df13-4d04-4aab-bf37-e70dc278f1e5)
 
-
 Documentation
 -------------
 
@@ -22,7 +21,30 @@ For documentation see:
 Installation
 ------------
 
-All the installation instructions are located in the documentation.
+## Installation
+
+### Step 1: Download OsLabSupervisorBundle using [Composer](http://getcomposer.org)
+
+Require the bundle with composer:
+
+    $ composer require oslab/supervisor-bundle
+
+### Step 2: Enable the bundle¶
+
+Enable the bundle in the kernel:
+
+``` php
+<?php
+// app/AppKernel.php
+
+public function registerBundles()
+{
+    $bundles = array(
+        // ...
+        new OsLab\SupervisorBundle\OsLabSupervisorBundle(),
+        // ...
+    );
+}
 
 License
 -------
@@ -33,7 +55,23 @@ This bundle is under the MIT license. See the complete license in the bundle:
     Resources/meta/LICENSE
 ```
 
-Contributors
+Unit Tests
 ------------
 
-See [CONTRIBUTING](CONTRIBUTORS.md) file.
+To run unit tests, you'll need a set of dependencies you can install using Composer:
+```
+php composer.phar install
+```
+
+Once installed, just launch the following command:
+```
+phpunit
+```
+
+## Credits
+
+* [All contributors](https://github.com/OsLab/SupervisorBundle/graphs/contributors)
+
+## License
+
+Supervisor is released under the MIT License. See the bundled LICENSE file for details.
