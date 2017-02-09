@@ -26,7 +26,7 @@ class SupervisorController extends Controller
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function indexAction()
+    public function statusAction()
     {
         $supervisor = new Process('supervisorctl');
         $supervisor->run();
