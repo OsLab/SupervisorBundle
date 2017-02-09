@@ -1,5 +1,5 @@
 {
-  "name": "OsLab/SupervisorBundle",
+  "name": "oslab/supervisor-bundle",
   "description": "A Bundle for adding supervisor manage.",
   "type": "symfony-bundle",
   "keywords": ["supervisor", "shared resource", "bundle"],
@@ -18,8 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9",
-    "predis/predis": "dev-master"
+    "php": ">=5.5.9"
   },
   "require-dev": {
     "phake/phake": "@stable",
