@@ -23,7 +23,7 @@
     "symfony/twig-bundle": "^2.7 || ^3.0",
     "twig/twig": "^1.28 || ^2.0",
     "symfony/templating": "^2.7 || ^3.0",
-    "oslab/supervisor": "*"
+    "oslab/supervisor": "dev-master"
   },
   "require-dev": {
     "symfony/phpunit-bridge": "^2.7 || ^3.0",
@@ -32,11 +32,5 @@
   },
   "autoload": {
     "psr-4" : { "OsLab\\SupervisorBundle\\" : "" }
-  },
-  "minimum-stability": "dev",
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
   }
 }
