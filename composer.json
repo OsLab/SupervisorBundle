@@ -26,7 +26,7 @@
     "oslab/supervisor": "dev-master"
   },
   "require-dev": {
-    "symfony/phpunit-bridge": "~2.7|3.*,
+    "symfony/phpunit-bridge": "~2.7|3.*",
     "symfony/yaml": "~2.7|3.*",
     "phpunit/phpunit": "~4.8|~5.0"
   },
