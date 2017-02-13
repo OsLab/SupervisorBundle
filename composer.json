@@ -3,7 +3,7 @@
   "description": "A Bundle for adding supervisor manage.",
   "type": "symfony-bundle",
   "keywords": ["supervisor", "shared resource", "bundle"],
-  "homepage": "https://github.com/OsLab/SupervisorBundle",
+  "homepage": "https://github.com/OsLab/supervisorBundle",
   "license": "MIT",
   "authors": [
     {
