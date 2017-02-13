@@ -28,12 +28,9 @@ class SupervisorController extends Controller
      */
     public function statusAction()
     {
-        $supervisor = new Process('supervisorctl');
-        $supervisor->run();
-
         return $this->render('@OsLabSupervisor/Supervisor/index.html.twig', array(
             'hostname' => gethostname(),
-            'supervisor' => nl2br($supervisor->getOutput()),
+            'supervisor' => $this->get('oslab.supervisor.manager')->get,
         ));
     }
 }
