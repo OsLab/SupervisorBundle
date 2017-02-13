@@ -19,15 +19,15 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "symfony/framework-bundle": "^2.7 || ^3.0",
-    "symfony/twig-bundle": "^2.7 || ^3.0",
+    "symfony/framework-bundle": "~2.7|3.*",
+    "symfony/twig-bundle": "~2.7|3.*",
     "twig/twig": "^1.28 || ^2.0",
-    "symfony/templating": "^2.7 || ^3.0",
+    "symfony/templating": "~2.7|3.*",
     "oslab/supervisor": "dev-master"
   },
   "require-dev": {
-    "symfony/phpunit-bridge": "^2.7 || ^3.0",
-    "symfony/yaml": "^2.7 || ^3.0",
+    "symfony/phpunit-bridge": "~2.7|3.*,
+    "symfony/yaml": "~2.7|3.*",
     "phpunit/phpunit": "~4.8|~5.0"
   },
   "autoload": {
