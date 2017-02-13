@@ -21,8 +21,6 @@ For documentation see:
 Installation
 ------------
 
-## Installation
-
 ### Step 1: Download OsLabSupervisorBundle using [Composer](http://getcomposer.org)
 
 Require the bundle with composer:
@@ -45,14 +43,6 @@ public function registerBundles()
         // ...
     );
 }
-
-License
--------
-
-This bundle is under the MIT license. See the complete license in the bundle:
-
-```
-    Resources/meta/LICENSE
 ```
 
 Unit Tests
@@ -68,10 +58,16 @@ Once installed, just launch the following command:
 phpunit
 ```
 
-## Credits
+Credits
+------------
 
 * [All contributors](https://github.com/OsLab/SupervisorBundle/graphs/contributors)
 
-## License
+License
+------------
 
-Supervisor is released under the MIT License. See the bundled LICENSE file for details.
+Supervisor is released under the MIT License. See the complete license in the bundle:
+
+```
+    Resources/meta/LICENSE
+```
